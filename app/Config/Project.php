@@ -1,7 +1,7 @@
 <?php
 return [
-	'name' => 'yesf',
-	'namespace' => 'YesfApp\\',
+	'name' => 'app',
+	'namespace' => 'App\\',
 	'charset' => 'utf-8',
 	'router' => [
 		'map' => true,
@@ -12,7 +12,7 @@ return [
 		'prefix' => '/',
 		'dir' => '@APP/Static'
 	],
-	'modules' => ['index', 'admin'],
+	'modules' => ['index'],
 	'module' => 'index',
 	'view' => [
 		'auto' => false,
